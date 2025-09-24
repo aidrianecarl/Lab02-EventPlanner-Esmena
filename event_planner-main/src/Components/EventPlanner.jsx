@@ -44,13 +44,34 @@ const EventPlanner = () => {
                 </ul>
             </section>
             <section className='features'>
-
+                <h2>Features</h2>
+                <ul>
+                    <li>Easy event creation and management</li>
+                    <li>Customizable event templates</li>
+                    <li>Guest list management</li>
+                    <li>Real-time collaboration</li>
+                    <li>Reminders and notifications</li>
+                </ul>
             </section>
             <section className='testimonials'>
-
+                <h2>Testimonials</h2>
+                <div className='testimonial'>
+                    <p>"Event Planner made organizing my wedding a breez, Highly recommended!"</p>
+                    <p className='author'> - Aidriane Carl Esmena</p>
+                </div>
+                <div className='testimonial'>
+                    <p>"I use Event Planner for all my events, It saves me so much time and effort!"</p>
+                    <p className='author'> - Aidriane number 2</p>
+                </div>
             </section>
             <section className='contact'>
-
+                <h2>Contact Us</h2>
+                <form action="">
+                    <input type="text" placeholder='Name'/>
+                    <input type="email" placeholder='Email'/>
+                    <textarea placeholder="Message" />
+                    <button className='submit-button'>Send</button>
+                </form>
             </section>
         </div>
     );
